@@ -3,12 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Audio Player</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>mahiii</h1>
-    <a href="index.html">previous</a>
-    <audio controls src="mahi2.mp3"></audio>
-    <a href="3.html">next</a>
+    <div class="audio-container">
+        <h1 id="heading">Listen to this audio</h1>
+        <img src="https://www.pagalworld.lat/thumb/sft41/20398_4.jpg" alt="profile" width="300" height="300">
+        <div class="audio-controls">
+            <a href="index.html">
+            <button id="pre">Previous</button>
+            </a>
+            <button id="play-pause">Play</button>
+            <a href="3.html">
+            <button id="next">Next</button>
+            </a>
+        </div>
+        <audio controls src="mahi2.mp3"></audio>
+    </div>
+   
 </body>
 </html>
